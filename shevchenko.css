@@ -1,0 +1,127 @@
+.image {
+  border: rgb(125, 0, 0) 5px solid;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  background: rgb(125, 0, 0);
+}
+.text0 {
+  width: 400px;
+  background: #ddd;
+  border: rgb(100, 0, 0) 3px solid;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.text1 {
+  background: #ddd;
+  border: rgb(100, 0, 0) 3px solid;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+.text2 {
+  background: #ddd;
+  border: rgb(125, 0, 0) 3px solid;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  padding-right: 5px;
+}
+.text3 {
+  background: #ddd;
+  border: rgb(125, 0, 0) 3px solid;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+.text4 {
+  background: #ddd;
+  border: rgb(100, 0, 0) 3px solid;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  padding-right: 5px;
+}
+.text5 {
+  width: 130px;
+  background: #ddd;
+  border: rgb(100, 0, 0) 3px solid;
+  border-radius: 20px;
+  padding-left: 5px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.text6 {
+  width: 760px;
+  background: #ddd;
+  border: rgb(100, 0, 0) 3px solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+
+.text1:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.text2:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.text3:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.text4:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.text0:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+}
+.text5:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+}
+.text6:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+}
+
+.image1 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: rgb(125, 0, 0) 5px solid;
+  border-radius: 30px;
+  background: rgb(125, 0, 0);
+}
+
+.image2 {
+  margin-bottom: 10px;
+  border: rgb(125, 0, 0) 5px solid;
+  border-radius: 30px;
+  background: rgb(125, 0, 0);
+}
+
+.image1:hover {
+  border: rgb(255, 235, 210) 5px solid;
+}
+.image2:hover {
+  border: rgb(255, 235, 210) 5px solid;
+}
