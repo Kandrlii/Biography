@@ -129,12 +129,6 @@ body {
 }
 
 .image1:hover {
-  border: yellow 5px solid;
-}
-.image2:hover {
-  border: rgb(255, 255, 0) 5px solid;
-}
-.image1:hover {
   border: rgb(255, 235, 210) 5px solid;
 }
 .image2:hover {
