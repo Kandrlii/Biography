@@ -7,3 +7,7 @@ let nationality = prompt("Підтвердіть що ви українець (�
         alert("Доступ заборонено, ви не українець!")
     }
 }
+
+function AboutMe() {
+    alert("Instagram: couchytry\nTelegram: diloviy")
+}
