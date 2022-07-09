@@ -1,11 +1,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background: rgb(255, 239, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 239, 0, 1) 50%,
-    rgba(72, 45, 253, 1) 50%
-  );
+  background: rgb(88,25,126);
+  background: radial-gradient(
+  circle, 
+  rgba(88,25,126,1) 0%, 
+  rgba(255,255,255,1) 100%);
   color: rgb(59, 59, 59);
 }
 
