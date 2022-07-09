@@ -134,3 +134,9 @@ body {
 .image2:hover {
   border: rgb(255, 235, 210) 5px solid;
 }
+
+.developer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
