@@ -127,13 +127,6 @@ body {
   background: rgb(0, 0, 0);
 }
 
-.image1:hover {
-  border: yellow 5px solid;
-}
-.image2:hover {
-  border: rgb(255, 255, 0) 5px solid;
-} 
-
 .developer {
   display: flex;
   flex-direction: column;
