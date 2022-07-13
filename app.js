@@ -1,6 +1,6 @@
 for (;;) {
 let nationality = prompt("Підтвердіть, що ви українець (Напишіть: Слава Україні): ")
-    if (nationality == "Слава Україні!", "Слава Україні", "слава Україні", "Слава україні", "слава Україні!", "Слава україні!", "слава україні", "слава україні!") {
+    if (nationality == "Слава Україні") {
         alert("Доступ дозволено!")
         break
     } else {
@@ -9,5 +9,5 @@ let nationality = prompt("Підтвердіть, що ви українець (
 }
 
 function AboutMe() {
-    alert("Instagram: couchytry\nTelegram: diloviy")
+    alert("Instagram: @couchytry\nTelegram: @quietnesse")
 }
