@@ -141,5 +141,14 @@ body {
 .developer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+.button1 {
+  background-color: blueviolet;
+  border: black 5px solid;
+  color: white;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  
 }
