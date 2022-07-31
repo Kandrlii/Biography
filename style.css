@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: rgb(88, 25, 126);
   background: radial-gradient(
     circle,
@@ -52,7 +52,6 @@ body {
   padding-right: 5px;
   width: 1300px;
 }
-
 .text3 {
   background: white;
   border: rgb(0, 0, 0) 3px solid;
@@ -62,7 +61,6 @@ body {
   padding-left: 5px;
   width: 1400px;
 }
-
 .text4 {
   background: white;
   border: rgb(0, 0, 0) 3px solid;
@@ -159,7 +157,7 @@ body {
   border: black 5px solid;
   color: white;
   border-radius: 20px;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: "Montserrat", sans-serif;
 }
 
 .button2 {
@@ -168,7 +166,7 @@ body {
   border: black 5px solid;
   color: white;
   border-radius: 20px;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: "Montserrat", sans-serif;
 }
 
 .text1:hover {
@@ -176,19 +174,16 @@ body {
   color: rgb(0, 0, 0);
   font-size: 18px;
 }
-
 .text2:hover {
   background: white;
   color: rgb(0, 0, 0);
   font-size: 18px;
 }
-
 .text3:hover {
   background: white;
   color: rgb(0, 0, 0);
   font-size: 18px;
 }
-
 .text4:hover {
   background: white;
   color: rgb(0, 0, 0);
