@@ -1,3 +1,3 @@
 function AboutMe() {
-    alert("Instagram: @couchytry\nTelegram: @quietnesse")
+  alert("Instagram: @couchytry\nTelegram: @quietnesse");
 }
