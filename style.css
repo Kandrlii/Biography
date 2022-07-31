@@ -21,50 +21,6 @@ body {
   height: 300px;
 }
 
-.video {
-  border: black 5px solid;
-  border-radius: 20px;
-}
-.text0 {
-  width: 400px;
-  background: white;
-  border: rgb(0, 0, 0) 3px solid;
-  border-radius: 20px;
-  margin-bottom: 5px;
-  padding-left: 5px;
-  margin-top: 5px;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-}
-.text1 {
-  background: white;
-  border: rgb(0, 0, 0) 3px solid;
-  border-radius: 20px;
-  margin-bottom: 5px;
-  padding-left: 5px;
-}
-.text2 {
-  background: white;
-  border: rgb(0, 0, 0) 3px solid;
-  border-radius: 20px;
-  margin-bottom: 5px;
-  padding-right: 5px;
-}
-.text3 {
-  background: white;
-  border: rgb(0, 0, 0) 3px solid;
-  border-radius: 20px;
-  margin-bottom: 5px;
-  padding-left: 5px;
-}
-.text4 {
-  background: white;
-  border: rgb(0, 0, 0) 3px solid;
-  border-radius: 20px;
-  margin-bottom: 5px;
-  padding-right: 5px;
-}
 .text5 {
   width: 130px;
   background: white;
@@ -77,6 +33,62 @@ body {
   margin-bottom: 5px;
   font-size: 18px;
 }
+
+.text1 {
+  background: white;
+  border: rgb(0, 0, 0) 3px solid;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  width: 1200px;
+}
+.text2 {
+  background: white;
+  border: rgb(0, 0, 0) 3px solid;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding-right: 5px;
+  width: 1300px;
+}
+.text3 {
+  background: white;
+  border: rgb(0, 0, 0) 3px solid;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  width: 1400px;
+}
+.text4 {
+  background: white;
+  border: rgb(0, 0, 0) 3px solid;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding-right: 5px;
+  width: 1500px;
+}
+
+.url {
+  text-align: center;
+}
+
+.text0 {
+  width: 400px;
+  background: white;
+  border: rgb(0, 0, 0) 3px solid;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
 .text6 {
   width: 760px;
   background: white;
@@ -85,9 +97,77 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0 auto;
   margin-bottom: 20px;
   padding-left: 5px;
   font-size: 18px;
+}
+
+
+.video {
+  margin: 0 auto;
+  border: black 5px solid;
+  border-radius: 20px;
+}
+
+.image1 {
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: rgb(0, 0, 0) 5px solid;
+  border-radius: 30px;
+  background: rgb(0, 0, 0);
+}
+
+.image2 {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: rgb(0, 0, 0) 5px solid;
+  border-radius: 30px;
+  background: rgb(0, 0, 0);
+}
+
+.image3 {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: rgb(0, 0, 0) 5px solid;
+  border-radius: 30px;
+  background: rgb(0, 0, 0);
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.developer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wikipedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button1 {
+  margin: 0 auto;
+  background-color: blueviolet;
+  border: black 5px solid;
+  color: white;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.button2 {
+  margin: 0 auto;
+  background-color: blueviolet;
+  border: black 5px solid;
+  color: white;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .text1:hover {
@@ -109,45 +189,4 @@ body {
   background: white;
   color: rgb(0, 0, 0);
   font-size: 18px;
-}
-
-.image1 {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  border: rgb(0, 0, 0) 5px solid;
-  border-radius: 30px;
-  background: rgb(0, 0, 0);
-}
-
-.image2 {
-  margin-bottom: 10px;
-  border: rgb(0, 0, 0) 5px solid;
-  border-radius: 30px;
-  background: rgb(0, 0, 0);
-}
-
-.image3 {
-  margin-bottom: 10px;
-  border: rgb(0, 0, 0) 5px solid;
-  border-radius: 30px;
-  background: rgb(0, 0, 0);
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  margin-left: 10px;
-}
-
-.developer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.button1 {
-  background-color: blueviolet;
-  border: black 5px solid;
-  color: white;
-  border-radius: 20px;
-  font-family: 'Montserrat', sans-serif; 
 }
