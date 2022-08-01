@@ -1,15 +1,18 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background: rgb(88, 25, 126);
-  background: radial-gradient(
-    circle,
-    rgba(88, 25, 126, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
+  background: rgb(255, 96, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 96, 0, 1) 0%,
+    rgba(255, 156, 0, 1) 49%,
+    rgba(74, 76, 255, 1) 51%
   );
   color: rgb(59, 59, 59);
 }
 
 .image {
+  opacity: 0.75;
+  background: rgb(0, 0, 0);
   object-fit: cover;
   border: black 5px solid;
   border-radius: 100%;
@@ -22,7 +25,8 @@ body {
 }
 
 .text5 {
-  width: 130px;
+  opacity: 1;
+  width: 150px;
   background: white;
   border: rgb(0, 0, 0) 3px solid;
   border-radius: 20px;
@@ -35,6 +39,7 @@ body {
 }
 
 .text1 {
+  opacity: 1;
   background: white;
   border: rgb(0, 0, 0) 3px solid;
   border-radius: 20px;
@@ -44,6 +49,7 @@ body {
   width: 1200px;
 }
 .text2 {
+  opacity: 1;
   background: white;
   border: rgb(0, 0, 0) 3px solid;
   border-radius: 20px;
@@ -53,6 +59,7 @@ body {
   width: 1300px;
 }
 .text3 {
+  opacity: 1;
   background: white;
   border: rgb(0, 0, 0) 3px solid;
   border-radius: 20px;
@@ -62,6 +69,7 @@ body {
   width: 1400px;
 }
 .text4 {
+  opacity: 1;
   background: white;
   border: rgb(0, 0, 0) 3px solid;
   border-radius: 20px;
@@ -71,12 +79,9 @@ body {
   width: 1500px;
 }
 
-.url {
-  text-align: center;
-}
-
 .text0 {
-  width: 400px;
+  opacity: 1;
+  width: 430px;
   background: white;
   border: rgb(0, 0, 0) 3px solid;
   border-radius: 20px;
@@ -90,6 +95,7 @@ body {
 }
 
 .text6 {
+  opacity: 1;
   width: 770px;
   background: white;
   border: rgb(0, 0, 0) 3px solid;
@@ -113,15 +119,16 @@ body {
 }
 
 .image1 {
+  background: rgb(0, 0, 0);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
   border: rgb(0, 0, 0) 5px solid;
   border-radius: 30px;
-  background: rgb(0, 0, 0);
 }
 
 .image2 {
+  background: rgb(0, 0, 0);
   margin-bottom: 10px;
   border: rgb(0, 0, 0) 5px solid;
   border-radius: 30px;
@@ -129,6 +136,7 @@ body {
 }
 
 .image3 {
+  background: rgb(0, 0, 0);
   margin-bottom: 10px;
   border: rgb(0, 0, 0) 5px solid;
   border-radius: 30px;
@@ -158,40 +166,70 @@ body {
 }
 
 .button1 {
+  opacity: 1;
   margin: 0 auto;
-  background-color: blueviolet;
+  background-color: whitesmoke;
   border: black 5px solid;
-  color: white;
-  border-radius: 20px;
+  color: Black;
+  border-radius: 15px;
   font-family: "Montserrat", sans-serif;
 }
 
 .button2 {
+  opacity: 1;
   margin: 0 auto;
-  background-color: blueviolet;
+  background-color: whitesmoke;
   border: black 5px solid;
-  color: white;
-  border-radius: 20px;
+  color: black;
+  border-radius: 15px;
   font-family: "Montserrat", sans-serif;
 }
 
+.text0:hover {
+  opacity: 0.75;
+}
+
 .text1:hover {
-  background: white;
-  color: rgb(0, 0, 0);
-  font-size: 18px;
+  opacity: 0.75;
 }
 .text2:hover {
-  background: white;
-  color: rgb(0, 0, 0);
-  font-size: 18px;
+  opacity: 0.75;
 }
 .text3:hover {
-  background: white;
-  color: rgb(0, 0, 0);
-  font-size: 18px;
+  opacity: 0.75;
 }
 .text4:hover {
-  background: white;
-  color: rgb(0, 0, 0);
-  font-size: 18px;
+  opacity: 0.75;
+}
+
+.text5:hover {
+  opacity: 0.75;
+}
+
+.text6:hover {
+  opacity: 0.75;
+}
+
+.image1:hover {
+  opacity: 0.75;
+}
+
+.image2:hover {
+  opacity: 0.75;
+}
+
+.image3:hover {
+  opacity: 0.75;
+}
+
+.video:hover {
+  opacity: 0.75;
+}
+
+.button1:hover {
+  opacity: 0.75;
+}
+
+.button2:hover {
+  opacity: 0.75;
 }
