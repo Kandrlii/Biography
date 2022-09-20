@@ -47,6 +47,7 @@ body {
   background: rgb(0, 0, 0);
   width: 270px;
   height: 300px;
+  box-shadow: 0 0 99px blueviolet;
 }
 
 .text5 {
@@ -158,6 +159,7 @@ body {
   margin-bottom: 10px;
   border: rgb(0, 0, 0) 3px solid;
   border-radius: 30px;
+  box-shadow: 0 0 99px blueviolet;
 }
 
 .image2 {
@@ -167,6 +169,7 @@ body {
   border: rgb(0, 0, 0) 3px solid;
   border-radius: 30px;
   background: rgb(0, 0, 0);
+  box-shadow: 0 0 99px blueviolet;
 }
 
 .image3 {
@@ -180,6 +183,7 @@ body {
   height: 300px;
   object-fit: cover;
   margin-left: 10px;
+  box-shadow: 0 0 99px blueviolet;
 }
 
 .developer {
